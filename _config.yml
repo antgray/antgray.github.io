@@ -69,7 +69,7 @@ theme_mode:
 # img_cdn: "https://raw.githubusercontent.com/antgray/antgray.github.io/main/images"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://antgray.github.io/images/ag.jpeg
+avatar: https://antgray.github.io/images/rm.jpeg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
