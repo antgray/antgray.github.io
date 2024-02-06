@@ -2,7 +2,7 @@
 title: Simple ansible playbook for user creation
 date: 2024-02-06
 categories: 
-tags: [sudo, ansible]
+tags: [ansible]
 ---
 
 I'm setting up a RHEL Homelab in order to practice for the RHCSA. I'm using the
