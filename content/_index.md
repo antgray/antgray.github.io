@@ -7,7 +7,7 @@ title = "Hugo ʕ•ᴥ•ʔ Bear"
 
 # Welcome
 
-My name is Antonio. There are many like it, but this one is mine. The
+My name is Antonio. This is my personal blog. There are many like it, but this one is mine. The
 inspiration is to document my homelab projects and general linux system
 adminstration.
 
