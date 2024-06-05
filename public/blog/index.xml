@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Hugo ʕ•ᴥ•ʔ Bear Blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2020, Jane Doe.</copyright>
+    <lastBuildDate>Wed, 05 Jun 2024 16:42:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple disk usage alert</title>
+      <link>http://localhost:1313/simple-disk-usage-alert/</link>
+      <pubDate>Wed, 05 Jun 2024 16:42:04 -0400</pubDate>
+      <guid>http://localhost:1313/simple-disk-usage-alert/</guid>
+      <description>My docker host VM was running out of disk of space and I was unaware. I don&amp;rsquo;t want this to happen again so I created a basic script to notify me.&#xA;The script uses sSMTP as the MTA and I have a free account with smtp2go as my SMTP service.&#xA;The script is below:&#xA;#!/usr/bin/env bash #/dev/device/by-uuid/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx LV=/dev/mapper/vg--root-lv--var LIMIT=90 USAGE=&amp;#34;$(df -h $LV | grep -v Filesystem | awk &amp;#39;{print $5}&amp;#39; | cut -d&amp;#39;%&amp;#39; -f1)&amp;#34; if [ $USAGE -gt $LIMIT ]; then ssmtp mail@example.</description>
+    </item>
+  </channel>
+</rss>
